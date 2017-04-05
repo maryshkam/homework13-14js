@@ -1,0 +1,89 @@
+#wrapper {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.header {
+    margin: 30px;
+	font-size: 20px;
+	font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*-------Test*/
+.test__button {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 30px auto;
+    background-color: #7980f9;
+    color: #fff;
+    border: 3px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.test__list {
+    list-style-type: decimal;
+}
+
+.test__questions {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.test__block {
+    margin: 5px 0;
+}
+
+.test__answers {
+    font-weight: normal;
+}
+
+/*-------------Modal*/
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 200px;
+	margin: -150px 0 0 -250px;
+	padding: 40px;
+	text-align: center;
+    background-color: #e7f1ff;
+    border-radius: 10px;
+}
+
+.modal__overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.modal__message {
+	font-size: 20px;
+	line-height: 25px;
+	color: #0f1518;
+}
+
+.modal__button {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 135px auto;
+    background-color: #7980f9;
+    color: #fff;
+    border: 3px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
